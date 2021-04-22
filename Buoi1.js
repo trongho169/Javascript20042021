@@ -22,9 +22,17 @@
 
 
 //ctrl + ~ :mở terminal nhanh
-//1 - khai bao bien (dynamic type)
+//bai1 - khai bao bien (dynamic type)
 //var a = 5
-//let b = 10
-//const c =15
+//let b = 10 (hay dung bien thay doi)
+//const c =15 (hay dung bien khong thay doi)
 //c = 10
 //console.log(c)
+// git add .
+// git commit -m "khaibaobien"
+// git push (đẩy lên github)
+
+
+//bai2 - kieu du lieu
+//let a
+//console.log(a)
