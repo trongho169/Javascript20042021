@@ -54,3 +54,14 @@
 // let b = 10
 // console.log(b)
 
+// bai6  - function
+// function showName(name){
+//     console.log(name)
+// }
+// function tinhTong(a,b){
+//     return a + b
+// }
+// console.log(showName("trong"))
+// let a
+// const ketQua = tinhTong(5,a)
+// console.log(ketQua)
