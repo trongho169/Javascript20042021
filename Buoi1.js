@@ -35,4 +35,13 @@
 
 //bai2 - kieu du lieu
 //let a
-//console.log(a)
+//console.log(typeof(typeof(a)))
+
+//bai3 - object
+//mutable - inmutable
+// const trong={
+//     name: "ho van trong",
+//     age: 25
+// }
+// console.log(trong.name)
+// console.log(trong['name'])
