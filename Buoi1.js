@@ -23,11 +23,11 @@
 
 //ctrl + ~ :mở terminal nhanh
 //bai1 - khai bao bien (dynamic type)
-//var a = 5
-//let b = 10 (hay dung bien thay doi)
-//const c =15 (hay dung bien khong thay doi)
-//c = 10
-//console.log(c)
+// var a = 5
+// let b = 10 (hay dung bien thay doi)
+// const c =15 (hay dung bien khong thay doi)
+// c = 10
+// console.log(c)
 // git add .
 // git commit -m "khaibaobien"
 // git push (đẩy lên github)
@@ -65,3 +65,13 @@
 // let a
 // const ketQua = tinhTong(5,a)
 // console.log(ketQua)
+//
+//bai7 - object method
+const trong={
+    name: "ho van trong",
+    age : 25,
+    showInfo : function (){
+        console.log("Ten : " + this.name + " , Tuoi :" + this.age)
+    }
+}
+trong.showInfo()
