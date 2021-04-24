@@ -45,3 +45,12 @@
 // }
 // console.log(trong.name)
 // console.log(trong['name'])
+
+//bai4 - array
+//const arrNames = ["teo"]
+
+//bai5 - toan tu
+// let a = 5
+// let b = 10
+// console.log(b)
+
