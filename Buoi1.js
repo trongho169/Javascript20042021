@@ -91,6 +91,31 @@
 // }
 // toantu 3 ngoi
 // bieuthuc ? true : false
-let a =5
-let b=10
-a>b ? console.log("a lon hon b") : console.log("a be hon b")
+// let a =5
+// let b=10
+// a>b ? console.log("a lon hon b") : console.log("a be hon b")
+//bai9 - Vong lap For
+// const arrNames = ["ho","van","trong"]
+// for (let i=0;i< arrNames.length;i++){
+//     console.log(arrNames[i])
+// }
+// viet 1 phuong thuc kiem tra so nguyen to
+function kiemtra(x){
+    let dem=0
+    if(x < 2){
+        console.log("khong phai so nguyen to")
+        return
+    }
+    for(let i=2;i <= x;i++){
+        if(x % i == 0){
+            dem++
+        }
+    }
+    if (dem==1){
+        console.log("la so nguyen to")
+    }
+    else{
+        console.log("khong phai so nguyen to")
+    }
+}
+kiemtra(10)
