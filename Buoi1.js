@@ -77,15 +77,20 @@
 // trong.showInfo()
 //
 //bai8 - phepsosanh
-let a =6
-let b =6
-// 6 gia tri bang false: false, null, '', NaN, undefined, 0
-if(a > b){
-    console.log("1")
-}
-else if(a < b){
-    console.log("-1")
-}
-else{
-    console.log('0')
-}
+// let a =6
+// let b =6
+// // 6 gia tri bang false: false, null, '', NaN, undefined, 0
+// if(a > b){
+//     console.log("1")
+// }
+// else if(a < b){
+//     console.log("-1")
+// }
+// else{
+//     console.log('0')
+// }
+// toantu 3 ngoi
+// bieuthuc ? true : false
+let a =5
+let b=10
+a>b ? console.log("a lon hon b") : console.log("a be hon b")
