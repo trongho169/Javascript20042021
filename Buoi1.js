@@ -67,11 +67,25 @@
 // console.log(ketQua)
 //
 //bai7 - object method
-const trong={
-    name: "ho van trong",
-    age : 25,
-    showInfo : function (){
-        console.log("Ten : " + this.name + " , Tuoi :" + this.age)
-    }
+// const trong={
+//     name: "ho van trong",
+//     age : 25,
+//     showInfo : function (){
+//         console.log("Ten : " + this.name + " , Tuoi :" + this.age)
+//     }
+// }
+// trong.showInfo()
+//
+//bai8 - phepsosanh
+let a =6
+let b =6
+// 6 gia tri bang false: false, null, '', NaN, undefined, 0
+if(a > b){
+    console.log("1")
 }
-trong.showInfo()
+else if(a < b){
+    console.log("-1")
+}
+else{
+    console.log('0')
+}
