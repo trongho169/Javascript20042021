@@ -113,4 +113,4 @@ function kiemtra(x){
         console.log("khong phai so nguyen to")
     }
 }
-kiemtra(12)
+kiemtra(3)
