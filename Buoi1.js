@@ -95,22 +95,22 @@
 //     console.log(arrNames[i])
 // }
 // viet 1 phuong thuc kiem tra so nguyen to
-// function kiemtra(x){
-//     let dem=0
-//     if(x < 2){
-//         console.log("khong phai so nguyen to")
-//         return
-//     }
-//     for(let i=2;i <= x;i++){
-//         if(x % i == 0){
-//             dem++
-//         }
-//     }
-//     if (dem==1){
-//         console.log("la so nguyen to")
-//     }
-//     else{
-//         console.log("khong phai so nguyen to")
-//     }
-// }
-// kiemtra(11)
+function kiemtra(x){
+    let dem=0
+    if(x < 2){
+        console.log("khong phai so nguyen to")
+        return
+    }
+    for(let i=2;i <= x;i++){
+        if(x % i == 0){
+            dem++
+        }
+    }
+    if (dem==1){
+        console.log("la so nguyen to")
+    }
+    else{
+        console.log("khong phai so nguyen to")
+    }
+}
+kiemtra(12)
