@@ -1,25 +1,19 @@
 //1: Tạo thư mục quản lý source code .git (mỗi lần add new folde thì git init (chỉ khai báo một lần))
 // git init
-
 //2: Kiểm tra sự thay đổi của folder
 // git status
-
 //3: Lưu trữ sự thay đổi
 // git add "tên file"
 // git add . <lưu tất cả sự thay đổi>
-
 //4: Commit vào repository
 // git commit -m "lưu file buổi 1"
-
 //git config --global user.name "HoVanTrong"
 //git config --global user.email "vantrong169.ute@gmail.com"
-
 // Các bước hình thành một new folder
 // 1. git init
 // 2. tạo file mới
 // 3. git add . (lưu file mới)
 // 4. git commit -m "message" (đóng gói lưu trữ cho phiên làm việc)
-
 
 //ctrl + ~ :mở terminal nhanh
 //bai1 - khai bao bien (dynamic type)
@@ -34,14 +28,15 @@
 
 
 //bai2 - kieu du lieu
-//let a
-//console.log(typeof(typeof(a)))
+// let a
+// console.log(typeof(typeof(a)))
 
 //bai3 - object
 //mutable - inmutable
 // const trong={
 //     name: "ho van trong",
-//     age: 25
+//     age: 25,
+//     diachi: "xom 2, thon 7 Nam"
 // }
 // console.log(trong.name)
 // console.log(trong['name'])
@@ -100,22 +95,22 @@
 //     console.log(arrNames[i])
 // }
 // viet 1 phuong thuc kiem tra so nguyen to
-function kiemtra(x){
-    let dem=0
-    if(x < 2){
-        console.log("khong phai so nguyen to")
-        return
-    }
-    for(let i=2;i <= x;i++){
-        if(x % i == 0){
-            dem++
-        }
-    }
-    if (dem==1){
-        console.log("la so nguyen to")
-    }
-    else{
-        console.log("khong phai so nguyen to")
-    }
-}
-kiemtra(11)
+// function kiemtra(x){
+//     let dem=0
+//     if(x < 2){
+//         console.log("khong phai so nguyen to")
+//         return
+//     }
+//     for(let i=2;i <= x;i++){
+//         if(x % i == 0){
+//             dem++
+//         }
+//     }
+//     if (dem==1){
+//         console.log("la so nguyen to")
+//     }
+//     else{
+//         console.log("khong phai so nguyen to")
+//     }
+// }
+// kiemtra(11)
