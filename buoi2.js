@@ -1,4 +1,4 @@
-//bai 10 - for of chi su dung cho array
+// //bai 10 - for of chi su dung cho array
 // const arrNames = ["ti","suu","dan"]
 // const ti = {
 //     ten: "nguyenvanti",
@@ -24,11 +24,43 @@
 // console.log(multilply([2,3,4]));
 
 // bai 11 - for in
-const arrNames = ["ti","suu","dan"]
-const ti = {
-    name: "nguyenvanti",
-    age: 25
-}
-for(const key in ti){
-    console.log(key)
-}
+// const arrNames = ["ti","suu","dan"]
+// const ti = {
+//     name: "nguyenvanti",
+//     age: 25
+// }
+// for(const key in ti){
+//     console.log(key)
+// }
+// su dung vong lap for...in de in ra tat ca cac key trong object
+// var apartment = {
+//     Bedroom: {
+//       area: 20,
+//       bed: {
+//         type: 'twin-bed',
+//         price: 100
+//       }
+//     }
+//   };
+  
+//   function getkey(object){
+//       for(const key in object){
+//           console.log(key)
+//           for(const keyBedRoom in object[key]){
+//             console.log(keyBedRoom)
+//            for(const keyBed in object[key][keyBedRoom]){
+//                 console.log(keyBed)
+//             }
+//           }
+//       }
+//   }
+// getkey(apartment)
+//  function getkey(object){
+//      for (const key in object){
+//          console.log(key)
+//          if (typeof object[object]=== 'object'){
+//              getkey(object[key])
+//          }
+//      }
+//  }
+  
