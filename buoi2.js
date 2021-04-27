@@ -63,4 +63,18 @@
 //          }
 //      }
 //  }
-  
+// bai 12 - array method
+const arrNumber = [1,2,5,4,7,5]
+// // them phan tu cuoi mang
+// arrNumber.push(7)
+// // xoa phan tu cuoi
+// arrNumber.pop()
+// // them phan tu o dau
+// arrNumber.unshift(15)
+// //xoa phan tu o dau
+arrNumber.shift()
+//xoa phan tu o giua
+// arrNumber.splice(1,4)
+// them o giua
+// arrNumber.splice(1,0,20,21,22,23)
+console.log(arrNumber)
