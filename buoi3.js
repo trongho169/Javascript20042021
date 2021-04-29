@@ -82,10 +82,20 @@
 // console.log(arrChar.sort())
 
 // bai 18 - function scope
-let a =5
-function setValue(){
-    a =10
-    console.log(a)
-}
-setValue()
-console.log(a)
+// let a =5
+// function setValue(){
+//     a =10
+//     console.log(a)
+// }
+// setValue()
+// console.log(a)
+
+// bai 19 - arrow function
+// const arrNums = [1,2,3,4,5] // su dung ham funtion
+// const newarr = arrNums.map(function(number){
+//     return number * 2
+// })
+// // su dung ham arrow function
+// const newarr2 = arrNums.map((number) => {
+//     return number * 2
+// })
