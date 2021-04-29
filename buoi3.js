@@ -44,17 +44,31 @@
 // console.log(newarrNums)
 
 //baitap_vidu: dung ham reduce in ra mang cac ten duoi 25 tuoi
-const arrPerson = [
-    {id :1 , name : 'Tèo', age : 20},
-    {id :2 , name : 'Tủn', age : 25},
-    {id :3 , name : 'Hoa', age : 22},
-    {id :4 , name : 'Tuấn', age : 21},
-    {id :5 , name : 'Lan', age : 26},
-]
-const newarr = arrPerson.reduce(function(accumulator, currentValue){
-    if (currentValue.age <25){
-        accumulator.push(currentValue.name);
-    }
-    return accumulator
-},[])
-console.log(newarr)
+// const arrPerson = [
+//     {id :1 , name : 'Tèo', age : 20},
+//     {id :2 , name : 'Tủn', age : 25},
+//     {id :3 , name : 'Hoa', age : 22},
+//     {id :4 , name : 'Tuấn', age : 21},
+//     {id :5 , name : 'Lan', age : 26},
+// ]
+// const newarr = arrPerson.reduce(function(accumulator, currentValue){
+//     if (currentValue.age <25){
+//         accumulator.push(currentValue.name);
+//     }
+//     return accumulator
+// },[])
+// console.log(newarr)
+//baitap_vidu: xuat mang ra ket qua {a : 3, b : 2, c : 1}
+function countOccurrences(arr) {
+    const object = arr.reduce(function(accumulator,currentValue){
+        if (currentValue in accumulator){
+            accumulator[currentValue]++
+        }
+        else{
+            accumulator[currentValue]=1
+        }
+        return accumulator
+    },{})
+    console.log(object)
+}
+countOccurrences(["a", "b", "c", "b", "a", "a"]);
