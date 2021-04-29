@@ -74,7 +74,18 @@
 // countOccurrences(["a", "b", "c", "b", "a", "a"]);
 
 // bai 16 : ham sort
-const arrNums = [1,10,2,20,15,5,6]
-console.log(arrNums.sort(function(a,b){
-    return b - a // tuong duong bieu thuc b>a
-}))
+// const arrNums = [1,10,2,20,15,5,6]
+// console.log(arrNums.sort(function(a,b){
+//     return b - a // tuong duong bieu thuc b>a
+// }))
+// const arrChar = ['a','A','b','c','d','D']
+// console.log(arrChar.sort())
+
+// bai 18 - function scope
+let a =5
+function setValue(){
+    a =10
+    console.log(a)
+}
+setValue()
+console.log(a)
