@@ -59,16 +59,22 @@
 // },[])
 // console.log(newarr)
 //baitap_vidu: xuat mang ra ket qua {a : 3, b : 2, c : 1}
-function countOccurrences(arr) {
-    const object = arr.reduce(function(accumulator,currentValue){
-        if (currentValue in accumulator){
-            accumulator[currentValue]++
-        }
-        else{
-            accumulator[currentValue]=1
-        }
-        return accumulator
-    },{})
-    console.log(object)
-}
-countOccurrences(["a", "b", "c", "b", "a", "a"]);
+// function countOccurrences(arr) {
+//     const object = arr.reduce(function(accumulator,currentValue){
+//         if (currentValue in accumulator){
+//             accumulator[currentValue]++
+//         }
+//         else{
+//             accumulator[currentValue]=1
+//         }
+//         return accumulator
+//     },{})
+//     console.log(object)
+// }
+// countOccurrences(["a", "b", "c", "b", "a", "a"]);
+
+// bai 16 : ham sort
+const arrNums = [1,10,2,20,15,5,6]
+console.log(arrNums.sort(function(a,b){
+    return b - a // tuong duong bieu thuc b>a
+}))
