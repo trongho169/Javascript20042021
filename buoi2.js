@@ -132,9 +132,40 @@
 // thay doi gia tri phan tu trong mang
 // khong thay doi kich thuoc cua mang
 // tao ra mang moi chua su thay doi nay
-const arrNumbers = [1,2,3,4,5]
-const newArrNumbers = arrNumbers.map(function(number,index){
-    // console.log(number)
-    return number * 2
-})
-console.log(newArrNumbers)    
+// const arrNumbers = [1,2,3,4,5]
+// const newArrNumbers = arrNumbers.map(function(number){
+//     // console.log(number)
+//     return number * 2
+// })
+// console.log(newArrNumbers)
+
+//bai tap vi du-Make an array of strings of the names
+function namesOnly(arr) {
+    const newArr = arr.map(function(person){
+        return person.name
+    })
+    console.log(newArr)
+}
+namesOnly([
+  {
+    name: "Angelina Jolie",
+    age: 80
+  },
+  {
+    name: "Eric Jones",
+    age: 2
+  },
+  {
+    name: "Paris Hilton",
+    age: 5
+  },
+  {
+    name: "Kayne West",
+    age: 16
+  },
+  {
+    name: "Bob Ziroll",
+    age: 100
+  }
+])
+// ["Angelina Jolie", "Eric Jones", "Paris Hilton", "Kayne West", "Bob Ziroll"]
