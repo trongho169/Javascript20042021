@@ -7,3 +7,4 @@ const newArrNames = arrNames.filter(function(name){
     return false
 })
 console.log(newArrNames)
+console.log(arrNames)
